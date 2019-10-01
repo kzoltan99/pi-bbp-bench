@@ -93,7 +93,7 @@ public class PiBBPBench {
         
         long delta = System.currentTimeMillis();
         
-        for(int d=1000000; d<1000001; ++d) {
+        for(int d=100000000; d<100000001; ++d) {
             
             d16Pi = 0.0d;
             
@@ -114,4 +114,4 @@ public class PiBBPBench {
         delta = System.currentTimeMillis() - delta;
         System.out.println(delta/1000.0);
     }
-} 
+}
